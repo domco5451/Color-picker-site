@@ -1,5 +1,6 @@
-const colorList = ["green", "yellow", "purple","blue", "cyan"]
+const colorList = ["Green", "Yellow", "Purple","Blue", "Cyan"]
 let i = 0;
+let colorCode = document.getElementById("colorName");
 
 function changeColor() {
     if (i >= colorList.length) {
@@ -7,5 +8,6 @@ function changeColor() {
     }
     let color = (colorList[i]);
     document.body.style.background = color;
+    colorCode.textContent = color;
     i += 1;
 }

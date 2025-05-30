@@ -5,13 +5,13 @@
     background: linear-gradient(45deg, #f370f3, #ffabe6, #7575ff);
     font-size: 1rem;
     font-weight: bold;
+    margin: 20px;
 }
 .btnDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     height: 90vh;
 }
 #btn:hover {
@@ -24,4 +24,15 @@ h1 {
     background: white;
     border-radius: 20px;
     padding: 10px;
+}
+footer {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    background: #000;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 20px;
 }
