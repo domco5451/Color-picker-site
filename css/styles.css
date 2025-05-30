@@ -1,0 +1,27 @@
+#btn {
+    border: 0;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #f370f3, #ffabe6, #7575ff);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btnDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 90vh;
+}
+#btn:hover {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: linear-gradient(45deg, #ff31ff, #ff65d1, #1818ff);
+}
+h1 {
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+}
